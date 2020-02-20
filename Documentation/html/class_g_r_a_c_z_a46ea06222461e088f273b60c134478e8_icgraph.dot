@@ -1,0 +1,21 @@
+digraph "GRACZ::zmien_dealera"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node82 [label="GRACZ::zmien_dealera",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="INTELIGENCJA::fold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_n_t_e_l_i_g_e_n_c_j_a.html#ad9dc326b5379c3b944df274075aa1e70"];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="INTELIGENCJA::decyzja",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_n_t_e_l_i_g_e_n_c_j_a.html#aee3e414d3daf262c2483699019361d3b"];
+  Node84 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="POKER::POKER_TEXAS\l_HOLDEM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_p_o_k_e_r.html#a1d4eb473893f8f365295141db9542078"];
+  Node85 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_a_i_n_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node82 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="RUCH::wybor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_u_c_h.html#a2bec8317c8f79892b03a5f02c4534cbd"];
+  Node87 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="TURA::tury_gry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_u_r_a.html#adaec4e94f17f6cde8b18bed1b2288785"];
+  Node88 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

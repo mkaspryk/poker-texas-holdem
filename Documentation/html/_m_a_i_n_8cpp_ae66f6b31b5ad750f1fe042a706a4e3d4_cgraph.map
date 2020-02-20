@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html#a36062f7b0f804a2c1a9c33fbcb407f49" title="KARTY_WSPOLNE::a_GRACZ_1" alt="" coords="104,5,323,32"/>
+<area shape="rect" id="node3" href="$class_k_a_r_t_a.html#a92eca97b5e25a6a85b52fa9be5437c38" title="KARTA::wypisz" alt="" coords="157,56,270,83"/>
+<area shape="rect" id="node4" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html#ad8ebe2972869cd370e82319bdedca6ee" title="KARTY_WSPOLNE::a_GRACZ_2" alt="" coords="104,107,323,133"/>
+<area shape="rect" id="node5" href="$class_g_r_a___s_f_m_l.html#afcb8f3637716f83a8cd40b59b876998c" title="GRA_SFML::rysuj_plansze" alt="" coords="123,157,303,184"/>
+<area shape="rect" id="node6" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html#a14b4dda3df17201feaf5bf7122ab5c60" title="KARTY_WSPOLNE::rozdaj\l_gracz" alt="" coords="123,209,304,250"/>
+<area shape="rect" id="node8" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html#ad1489834b956a2d5d5871d44cb674b51" title="KARTY_WSPOLNE::rozdaj_trzy" alt="" coords="108,275,319,301"/>
+<area shape="rect" id="node9" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html#a97ce7d0a6942994910dd44b29c9d4c90" title="KARTY_WSPOLNE::rozdaj\l_czwarta" alt="" coords="123,326,304,367"/>
+<area shape="rect" id="node10" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html#ae58b5721e06e6b1ae3e4eca230d7cab9" title="KARTY_WSPOLNE::rozdaj\l_piata" alt="" coords="123,391,304,433"/>
+<area shape="rect" id="node11" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html#aa2eba2581dc5caa9b2d2041eb8323804" title="KARTY_WSPOLNE::rozdaj\l_przeciwnik" alt="" coords="123,457,304,498"/>
+<area shape="rect" id="node7" href="$class_r_o_z_d_a_n_i_e___s_f_m_l.html#a0fa0d2eca3d78db9eaec1d6b39079ee0" title="ROZDANIE_SFML::rysuj\l_karte" alt="" coords="371,326,536,367"/>
+</map>

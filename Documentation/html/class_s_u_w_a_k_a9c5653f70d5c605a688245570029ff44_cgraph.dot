@@ -1,0 +1,13 @@
+digraph "SUWAK::draw"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="SUWAK::draw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="SUWAK::logic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_u_w_a_k.html#a335406582619de85aba92082f9ebc1b1"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="SUWAK::returnText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_u_w_a_k.html#a79d3308c134ae4127870656d7dbbc584"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="SUWAK::myDraw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_u_w_a_k.html#ad26b31c1f8369c15cea6396e4d5c3cd1"];
+}

@@ -1,0 +1,21 @@
+digraph "GRA_SFML::dodaj_ai"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="GRA_SFML::dodaj_ai",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="INTELIGENCJA::raise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_n_t_e_l_i_g_e_n_c_j_a.html#af757dea82566921395b405a5b19c8674"];
+  Node27 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="INTELIGENCJA::call",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_n_t_e_l_i_g_e_n_c_j_a.html#a7758b5167f40d1c49e0f83074abf8007"];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="INTELIGENCJA::decyzja",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_n_t_e_l_i_g_e_n_c_j_a.html#aee3e414d3daf262c2483699019361d3b"];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="POKER::POKER_TEXAS\l_HOLDEM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_p_o_k_e_r.html#a1d4eb473893f8f365295141db9542078"];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_a_i_n_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node27 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="RUCH::ustawianie_dealer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_u_c_h.html#a8c66609850fee7a5fd660010f4ae844f"];
+  Node33 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

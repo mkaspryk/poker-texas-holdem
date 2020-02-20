@@ -1,0 +1,47 @@
+digraph "RUCH::wybor"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="RUCH::wybor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="ZEGAR::czekaj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_z_e_g_a_r.html#ab7b961ce7ccd7dbe63f31097908a57d6"];
+  Node20 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="GRACZ::dodaj_kwote",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a_c_z.html#a68a372afcda4018cc57ffc279bbf47e3"];
+  Node20 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="GRA_SFML::a_ile_w_puli",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#a9a2d61da0dd78aff17f387b6955f8a59"];
+  Node20 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="STATYSTYKA::push_back",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_t_a_t_y_s_t_y_k_a.html#af9fcd1cf726f66e69a4ccf8820c2398c"];
+  Node20 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="GRA_SFML::zeruj_pule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#afb3615778c794fe2eb4b2af3b2637a9a"];
+  Node20 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="GRACZ::zmien_dealera",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a_c_z.html#a46ea06222461e088f273b60c134478e8"];
+  Node20 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="RUNDA::a_ktoraRunda",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_u_n_d_a.html#ae57de084fed0f9350b3e7740449e1672"];
+  Node20 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="STAWKI::zwiekszanie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_t_a_w_k_i.html#a8a763861b8a4ae04e1b7ce700951a92e"];
+  Node20 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="RUNDA::zwieksz_runde",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_u_n_d_a.html#a8d3acd619429bcf98bf710bfbe6bd693"];
+  Node20 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="SEMAFORY::zeruj_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_e_m_a_f_o_r_y.html#a5c9ca1d7eb72d6c1c120fd272ee57d3b"];
+  Node20 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="TURA::resetuj_ture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_u_r_a.html#abda750da7439593bf9a30da1b3c7f47c"];
+  Node20 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="SUWAK::getOldSliderValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_u_w_a_k.html#aa7254ef9d5eaa2cd76134a1efaa46cec"];
+  Node20 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="GRA_SFML::a_ile_dodane_ai",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#aeaed955d837f783fe0792c28af1a5a37"];
+  Node20 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="GRA_SFML::a_ile_dodane\l_player",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#a93f84b7a517afefa10524f0b9592d027"];
+  Node20 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="GRACZ::a_kwota",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a_c_z.html#a0e57ea7056fbb5021feccd4122ce1911"];
+  Node20 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="GRA_SFML::dodaj_do_puli",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#a7a832fa932ee8fec61a5224ff228f70c"];
+  Node20 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="GRA_SFML::dodaj_player",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#a239894627eee117c17d633286ddf1916"];
+  Node20 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="GRACZ::pobierz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a_c_z.html#a38283523dbd9776caa016ead3a61e7b2"];
+  Node20 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="SUWAK::resetOldSliderValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_u_w_a_k.html#ab5f1ef3308dc0d849d8c4da954e85766"];
+  Node20 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="TURA::kolejna_tura",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_t_u_r_a.html#a82ddcc18ed4346624f328a37e753a779"];
+}

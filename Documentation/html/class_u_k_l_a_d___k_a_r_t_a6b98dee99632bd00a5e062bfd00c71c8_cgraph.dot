@@ -1,0 +1,48 @@
+digraph "UKLAD_KART::sprawdzenie"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node77 [label="UKLAD_KART::sprawdzenie",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node77 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="UKLAD_KART::sortuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a5c95abac82b8d99c8ff2bef3060a3436"];
+  Node77 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="UKLAD_KART::poker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#ab9c4539c39692972dcf62bc65919685a"];
+  Node79 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="UKLAD_KART::kolor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a7e4e5c1a380d379c2069182bcdbf059a"];
+  Node80 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="KARTA::a_kol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_k_a_r_t_a.html#a98f2829a435830ef00f44b1d58db99da"];
+  Node79 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="KARTA::a_war",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_k_a_r_t_a.html#af68700f7daf9438ea4173f7b044f41ac"];
+  Node77 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="UKLAD_KART::wygrana",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a1524076b40e7f001e134348ac5f34d4d"];
+  Node77 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="UKLAD_KART::kareta",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a224a29a55d2aa09284520132fe0af3e1"];
+  Node84 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="UKLAD_KART::odfiltrowanie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#aff673305c2ce01d4e95719865fbf464b"];
+  Node85 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="UKLAD_KART::najwyzsza",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a596ea7c2a0cdc401e5d842fc9290e054"];
+  Node77 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="UKLAD_KART::full",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a70cf45cd7587aa804071367e23dec5be"];
+  Node87 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="UKLAD_KART::trojka",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a6c36491e2bbe48d7e0a1b0c030c7619f"];
+  Node88 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="UKLAD_KART::wygrana2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#a814516a28f2036b9c7677c10cf35b0dc"];
+  Node77 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="UKLAD_KART::strit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#aabce6726b17b9b4ee71148c14f0a7548"];
+  Node90 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="UKLAD_KART::dwie_pary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#afdf9149e5a4283edd08933a62a261958"];
+  Node91 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="UKLAD_KART::jedna_para",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_k_l_a_d___k_a_r_t.html#aa5016799c241c360fffa70502f4f8f60"];
+  Node92 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

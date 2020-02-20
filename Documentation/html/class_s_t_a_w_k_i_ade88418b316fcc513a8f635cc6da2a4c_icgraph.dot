@@ -1,0 +1,15 @@
+digraph "STAWKI::a_big_blind"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="STAWKI::a_big_blind",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="INTELIGENCJA::raise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_i_n_t_e_l_i_g_e_n_c_j_a.html#af757dea82566921395b405a5b19c8674"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RUCH::ustawianie_dealer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_r_u_c_h.html#a8c66609850fee7a5fd660010f4ae844f"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="POKER::POKER_TEXAS\l_HOLDEM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_p_o_k_e_r.html#a1d4eb473893f8f365295141db9542078"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_a_i_n_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+}

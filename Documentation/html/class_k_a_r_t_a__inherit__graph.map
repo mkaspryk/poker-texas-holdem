@@ -1,0 +1,12 @@
+<map id="KARTA" name="KARTA">
+<area shape="rect" id="node2" href="$class_g_r_a_c_z.html" title="GRACZ" alt="" coords="67,80,134,107"/>
+<area shape="rect" id="node7" href="$class_k_a_r_t_y___w_s_p_o_l_n_e.html" title="KARTY_WSPOLNE" alt="" coords="158,80,297,107"/>
+<area shape="rect" id="node8" href="$class_r_o_z_d_a_n_i_e___s_f_m_l.html" title="ROZDANIE_SFML" alt="" coords="321,80,451,107"/>
+<area shape="rect" id="node9" href="$class_t_a_l_i_a___k_a_r_t.html" title="TALIA_KART" alt="" coords="475,80,574,107"/>
+<area shape="rect" id="node10" href="$class_u_k_l_a_d___k_a_r_t.html" title="UKLAD_KART" alt="" coords="598,80,705,107"/>
+<area shape="rect" id="node3" href="$class_g_r_a___s_f_m_l.html" title="GRA_SFML" alt="" coords="5,155,97,181"/>
+<area shape="rect" id="node6" href="$class_r_u_c_h.html" title="RUCH" alt="" coords="122,155,181,181"/>
+<area shape="rect" id="node4" href="$class_t_u_r_a.html" title="TURA" alt="" coords="23,229,79,256"/>
+<area shape="rect" id="node5" href="$class_s_t_a_w_k_i.html" title="STAWKI" alt="" coords="15,304,87,331"/>
+<area shape="rect" id="node11" href="$class_i_n_t_e_l_i_g_e_n_c_j_a.html" title="INTELIGENCJA" alt="" coords="595,155,707,181"/>
+</map>

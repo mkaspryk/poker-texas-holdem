@@ -1,0 +1,17 @@
+digraph "INTELIGENCJA::raise"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node73 [label="INTELIGENCJA::raise",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node73 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="STAWKI::a_big_blind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_s_t_a_w_k_i.html#ade88418b316fcc513a8f635cc6da2a4c"];
+  Node73 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="GRACZ::a_kwota",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a_c_z.html#a0e57ea7056fbb5021feccd4122ce1911"];
+  Node73 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="GRACZ::pobierz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a_c_z.html#a38283523dbd9776caa016ead3a61e7b2"];
+  Node73 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="GRA_SFML::dodaj_ai",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#a2f56c40f3bc52036c386e327d0166d51"];
+  Node73 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="GRA_SFML::dodaj_do_puli",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_r_a___s_f_m_l.html#a7a832fa932ee8fec61a5224ff228f70c"];
+}
